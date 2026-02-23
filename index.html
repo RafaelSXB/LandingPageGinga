@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ginga</title>
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>
+    <a class="btnZap"></a>
+    <img class="Emblema" src="media/EmblemaMarkenting.png" alt="">
+    <header>
+        <h1>Agência de Markenting Sorocaba</h1>
+        <img  src="media/logoo.png" alt="">
+        <div class="socialAccount">
+            <img src="media/Facebook.png" alt="">
+            <img src="media/Instagram.png" alt="">
+            <img src="media/WhatsApp.png" alt="">
+        </div>
+    </header>
+    <main class="containerMain">
+        <img class="Agencia" src="media/Agencia.png" alt="">
+        <img class="Shape" src="media/Shape.png" alt="">
+        <img class="Computer" src="media/computer.png" alt="">
+    </main>
+    <div class="areaTextImage">
+        <div class="blur"></div>
+
+        <p>Construímos marcas com método, análise e visão de crescimento. <br>
+    A Ginga MKT é uma agência de branding e marketing estratégico <br>
+    que ajuda empresas a crescer de forma organizada, clara e <br>
+    sustentável por meio de decisões orientadas a dados.</p>
+    </div>
+    
+
+    <button class="btnConversation">Vamos conversar sobre seu projeto?</button>
+    <div class="back-ginga"></div>
+
+    <div class="secondMain">
+  <div class="swiper">
+    <div class="swiper-wrapper">
+        
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>MARKETING</h2>
+                    <ul>
+                        <li>Estratégia de marca</li>
+                        <li>Posicionamento</li>
+                        <li>Comunicação Visual</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>BRANDING</h2>
+                    <ul>
+                        <li>Branding que constrói negócios fortes</li>
+                        <li>Visão de crescimento</li>
+                        <li>Tom de voz e escrita</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>MARKETING DIGITAL</h2>
+                    <ul>
+                        <li>Gestão de Tráfego Pago</li>
+                        <li>Criação de Conteúdo</li>
+                        <li>Análise de métricas</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>MARKETING</h2>
+                    <ul>
+                        <li>Estratégia de marca</li>
+                        <li>Posicionamento</li>
+                        <li>Comunicação Visual</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>BRANDING</h2>
+                    <ul>
+                        <li>Branding que constrói negócios fortes</li>
+                        <li>Visão de crescimento</li>
+                        <li>Tom de voz e escrita</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="swiper-slide">
+            <div class="card-content">
+                <img src="media/frame.png" class="moldura" alt="Moldura">
+                <div class="info-overlay">
+                    <span class="letra-g">G</span>
+                    <h2>MARKETING DIGITAL</h2>
+                    <ul>
+                        <li>Gestão de Tráfego Pago</li>
+                        <li>Criação de Conteúdo</li>
+                        <li>Análise de métricas</li>
+                    </ul>
+                    <button class="btn-card">Mandar Mensagem</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+    </div>
+    <footer>
+
+    </footer>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script>
+ const swiper = new Swiper('.swiper', {
+  loop: true,
+  centeredSlides: true,
+  slidesPerView: 'auto', 
+  spaceBetween: -(window.innerWidth / 1.53), 
+  grabCursor: true,
+
+
+
+  
+  autoplay: {
+    delay: 10000,
+    disableOnInteraction: false,
+  },
+
+  // Efeito de transição mais suave
+  watchSlidesProgress: true,
+  on: {
+    setTranslate: function() {
+      this.slides.forEach((slide) => {
+        const progress = slide.progress;
+        const scale = 0.83 - Math.abs(progress) * 0.3; // Ajuste o fator de escala conforme necessário
+        slide.style.transform = `scale(${scale})`;
+      });
+
+    },
+  },
+});
+</script>
+</body>
+
+</html>
