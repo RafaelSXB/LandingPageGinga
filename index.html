@@ -65,9 +65,11 @@
                     <span class="letra-g">G</span>
                     <h2>BRANDING</h2>
                     <ul>
-                        <li>Branding que constrói negócios fortes</li>
-                        <li>Visão de crescimento</li>
-                        <li>Tom de voz e escrita</li>
+                        <li>• Branding que constrói negócios fortes</li>
+                        <li>• Criamos marcas com estratégia, método e visão de crescimento.</li>
+                        <li>• Posicionamento de marca, propósito, tom de voz e estrutura de marca.</li>
+                        <li>• Sua marca clara, profissional e preparada para crescer.</li>
+                        <li>• Branding orientado a negócios.</li>
                     </ul>
                     <button class="btn-card">Mandar Mensagem</button>
                 </div>
@@ -153,24 +155,24 @@
   loop: true,
   centeredSlides: true,
   slidesPerView: 'auto', 
-  spaceBetween: -(window.innerWidth / 1.53), 
+  spaceBetween: -(430 / 1.76), 
   grabCursor: true,
 
 
 
   
-  autoplay: {
+ /* autoplay: {
     delay: 10000,
     disableOnInteraction: false,
   },
-
+*/
   // Efeito de transição mais suave
   watchSlidesProgress: true,
   on: {
     setTranslate: function() {
       this.slides.forEach((slide) => {
         const progress = slide.progress;
-        const scale = 0.83 - Math.abs(progress) * 0.3; // Ajuste o fator de escala conforme necessário
+        const scale = 0.85 - Math.abs(progress) * 0.3; // Ajuste o fator de escala conforme necessário
         slide.style.transform = `scale(${scale})`;
       });
 
