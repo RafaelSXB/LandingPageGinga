@@ -384,6 +384,7 @@ font-family: 'Poppins', sans-serif;
     background: #001540;
     color: white;
     border: none;
+    text-decoration: NONE;
     align-self: start;
     padding: 10px 20px;
      bottom: 40px;
