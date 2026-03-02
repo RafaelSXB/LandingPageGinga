@@ -308,7 +308,6 @@
     position: relative;
     width: 310px; 
        height: 590px;
-  
          background-image: url('../media/backgroundframe.png');
         background-size: 80% 75%;
         background-position: top center;
@@ -323,7 +322,7 @@
 .swiper {
 
     margin: 0 auto;
-    height: 55%;
+    height: 70%;
     max-width: 430px;
     min-width: 430px;
   overflow: visible !important;
@@ -356,6 +355,7 @@
 
 .info-overlay h2 {
     font-size: 1.4em;
+    font-family: 'Poppins', sans-serif;
     align-self: start;
     white-space: nowrap;
    margin-left: 1.0em;
@@ -365,18 +365,19 @@
 .info-overlay ul {
     list-style: none;
     background-color: white;
+    border: none;
     width: 23em;
     height: 6em;
     padding: 0.6em;
     margin-top: 0.90em;
     margin-left: 0.45em;
     color: black;
-    font-size: 0.78em;
+    font-size: 0.72em;
     justify-content: start;
     text-align: left;
 font-family: 'Poppins', sans-serif;
     font-weight: 500;
-    width: 260px;
+    width: 265px;
 }
 
 .btn-card {
@@ -425,7 +426,7 @@ footer{
     top: 50%;
     height: 35%;
      font-family: 'Poppins', sans-serif;
-     margin-right: 10px;
+    right: 2%;
     font-size: 0.83em;
     line-height: 1.6;
     font-weight: 350;
@@ -468,11 +469,12 @@ z-index: 2;
 .bottomFooter{
    
     position: absolute;
+    font-family: 'Poppins', sans-serif;
     bottom: 0;
     text-align: center;
     justify-self: center;
-    width: 70%;
-     font-family: 'Poppins', sans-serif;
+    width: 100%;
+  
    
     font-size: 0.80em;
     line-height: 1.6;
