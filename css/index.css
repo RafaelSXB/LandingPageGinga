@@ -410,10 +410,10 @@ footer{
 .leftFooter{
     position: absolute;
 
-    width: 79%;
+    width: 100%;
      font-family: 'Poppins', sans-serif;
 
-    font-size: 0.83em;
+    font-size: 0.80em;
     line-height: 1.6;
     padding-top: 1em;
     padding-left: 0.2em;
